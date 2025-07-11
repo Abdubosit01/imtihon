@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
+
+button{
+    width: 146px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+
+main{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(./Group\ 18\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-color: rgba(45, 38, 65, 1);
+    background-position-y: 500px;
+   
+}
+
+
+.man{
+    width: 540px;
+    height: 304px;
+}
+
+
+
+
+h1{
+    font-size: 72px;
+    color: white;
+}
+
+p{
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+.btn{
+    margin-top: 30px;
+    background-color: rgba(45, 38, 65, 1) ;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+
+.im{
+    position: relative;
+    top: 120px;
+}
+
+
+.lol{
+    margin-top: 300px;
+}
+
+h2{
+    font-size: 72px;
+}
+
+.car{
+    width: 350px;
+    height: 250px;
+}
+
+.san{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+h3{
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.fil{
+    color: rgb(104, 103, 103);
+    padding-top: 30px;
+}
+
+.n{
+    font-size: 56px;
+    width: 500px;
+}
+
+
+.ol{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    background-color: rgba(45, 38, 65, 1);
+    background-image: url(./Group\ 10.svg);
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+}
+
+.bn{
+    
+    background-color: rgba(45, 38, 65, 1) ;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+footer p{
+    color: black;
+  padding: 25px;
+ 
+}
+
+footer{
+    height: 393px;
+    margin-top: 200px;
+    flex-wrap: wrap;
+}
+
+
+.ut{
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.pol {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+}
+
+
+span{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.er{
+    color: rgb(105, 105, 105);
+   
+}
+
+.imgt{
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media(max-width:750px){
+ .box{
+    flex-direction: column-reverse;
+    height: 800px;
+ }
+ .im{
+    width: 400px;
+    margin-top: -90px;
+ }
+
+ h1{
+    font-size: 50px;
+    margin-top: 80px;
+ }
+
+nav{
+    display: none;
+}
+
+.imgt{
+    display: block;
+}
+
+
+}
+
+
+
+@media(max-width:430px){
+
+h1{
+    font-size: 35px;
+}
+.man{
+    width: 327px;
+    height: 324px;
+    margin-top: 20px;
+}
+.man p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.man h1 {
+    text-align: center;
+}
+.man button{
+    margin-left: 76px;
+}
+
+
+
+
+h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+
+.car h3{
+    text-align: center;
+}
+
+.fil{
+    text-align: center;
+}
+
+.car img{
+    margin-left: 140px;
+}
+
+
+
+.n{
+    font-size: 35px;
+    width: 250px;
+    text-align: center;
+}
+.ol{
+    flex-direction: column;
+    height: 350px;
+}
+
+
+.pol{
+    flex-direction: column ;
+    display: flex;
+
+    gap: 50px;
+}
+
+.ut{
+    flex-direction: column;
+    display: flex;
+    gap: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
